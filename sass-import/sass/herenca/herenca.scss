@@ -1,0 +1,25 @@
+.btxx{
+    width: 125px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    border: 0;
+
+    &.btx-amarello { 
+        background-color: rgb(242, 192, 11);
+        color: aliceblue;
+    }
+
+    &.btx-azul {
+   
+        background-color: blue;
+        color: aliceblue;
+    }
+
+    &.btx-roxo {
+       
+        background-color: rgb(147, 20, 0);
+        color: aliceblue;
+    }
+}

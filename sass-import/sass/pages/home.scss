@@ -1,0 +1,40 @@
+
+
+
+.textBuy{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $primary-color;
+}
+
+
+.btn{
+    padding: 50px;
+    border: 2px solid red;
+    background-color: $secundary-color;
+
+}
+
+
+//aplicando nestin y mixin 
+
+@mixin text-style($color, $font-size, $font-family){
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.texts{
+    h1{
+        /*color: red;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;*/
+
+        @include text-style(#ff4043, 34px, Arial)
+    }
+
+    p{
+        @include text-style(#000c5b, 22px, sans-serif)
+    }
+}
+

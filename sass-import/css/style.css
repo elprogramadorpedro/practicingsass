@@ -1,0 +1,48 @@
+.textBuy {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff4043;
+}
+
+.btn {
+  padding: 50px;
+  border: 2px solid red;
+  background-color: #c3d91f;
+}
+
+.texts h1 {
+  /*color: red;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;*/
+  color: #ff4043;
+  font-size: 34px;
+  font-family: Arial;
+}
+.texts p {
+  color: #000c5b;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.btxx {
+  width: 125px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  border: 0;
+}
+.btxx.btx-amarello {
+  background-color: rgb(242, 192, 11);
+  color: aliceblue;
+}
+.btxx.btx-azul {
+  background-color: blue;
+  color: aliceblue;
+}
+.btxx.btx-roxo {
+  background-color: rgb(147, 20, 0);
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */

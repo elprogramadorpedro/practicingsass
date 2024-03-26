@@ -1,0 +1,54 @@
+
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+//vareaveis sass 
+$btn1-color: #35ea41; 
+$btn-width:100px;
+
+.btn1{
+    width: $btn-width;
+    height: 80px;
+    background-color: $btn1-color
+}
+
+.btn2{
+    width: $btn-width;
+    background-color: $btn1-color
+}
+
+.btn3{
+    width: $btn-width;
+    background-color: $btn1-color;
+    height: 35px;
+}
+
+// con nesting e muit simples se mexer em elementos
+
+.classe1{
+    ul{
+        background-color: red;
+    }
+
+    li{
+        background-color: aqua;
+        padding: 10px 0px;
+    }
+    
+    button{
+        background-color: #35ea41;
+        color: aliceblue;
+        cursor: pointer;
+
+        //efeito hover
+
+        &:hover{
+            background-color: red;
+            transition: 500ms;
+        }
+    }
+}
